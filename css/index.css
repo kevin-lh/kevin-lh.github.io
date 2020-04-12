@@ -1,0 +1,93 @@
+/*滚动样式*/
+.background{
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	overflow: hidden;
+	z-index: 1;
+}
+.background img{
+	width: 100%;	
+}
+/*滚动样式*/
+
+
+
+/*主页样式*/
+.box{
+	position: relative;
+	border: 1px solid red;
+	width: 444px;
+	height: 250px;
+	margin-top:-72px;
+	margin-left: 158px;
+	display: inline-block;
+	z-index: 2;		
+}
+.box .searchbox{
+	height: 67px;
+	background-color: rgb(255,105,15);
+}
+.box .searchbox img{
+	padding: 16px 0 16px 16px;
+}
+.box .searchbox a{
+	position: relative;
+    top: -30px;
+    left: 40px;
+    font-weight: 500;
+    color: rgba(255,255,255,1);
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.box .searchmiddle .input{	
+	width: 410px;
+	height:114px;
+	margin: 16px auto 8px;
+	border-radius: 2px;
+	border: 1px solid rgba(151,151,151,0.5);	
+}
+.box .searchmiddle .input.enter{
+	width: 402px;
+	height: 102px;
+	resize: none;
+	margin: 5px 0 0 5px;
+	border: none;
+	overflow: auto;
+	
+}
+.box .searchmiddle .track{
+	position: absolute;
+	width: 76px;
+	height: 32px;
+	background-color: #ff690f;
+	bottom: 55px;
+	right: 25px;
+	border: none;
+	border-radius:2px ;
+	font-size: 14px;
+	color: #FFFFFF;	
+}
+.box .searchmiddle .track:hover{
+	color: #000000;
+}
+.box .searchmiddle span{
+	font-size: 12px;
+	font-family: "microsoft yahei"a;
+	font-weight: 400;
+	color: rgba(74,144,226,1);
+	line-height: 14px;
+	padding-left: 16px;
+	margin-bottom: 8px;
+	display: inline-block;	
+}
+
+
+
+
+
+
+
+/*主页样式*/

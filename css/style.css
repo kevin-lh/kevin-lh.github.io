@@ -1,0 +1,144 @@
+{/*顶部样式*/}
+body{
+	font-size: 14px;
+	color: #333333;
+	height: 1500px;
+}
+.container{
+	width: 1206px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin: 0 auto;*/
+}
+.page-top{
+	height: 38px;
+	background-color:#323232;	
+}
+.page-top .top-left{
+	color: #a2a2a2;
+	line-height: 38px;
+	float:left;
+	margin-left: 20px;
+}
+.page-top .top-left span{
+	color: #3f3f3f;
+	padding: 0 3px;
+}
+.page-top  a:hover{
+	color: #FFFFFF;
+}
+.page-top  a{
+	display: inline-block;
+	margin-left: 10px;	
+}
+.page-top .top-left .knowmore{
+	position: relative;
+}
+.page-top .top-left .qr{
+	width: 126px;
+	background-color:#fff;
+	position: absolute;
+	left: 50%;
+	top: 38px;
+	margin-left: -63px;
+/*	right: 0;*/
+	/*border: 1px solid red;*/
+	padding-top: 20px;
+	box-shadow: rgb(170,170,170) 0px 1px 5px;
+	text-align: center;	
+	display: none;
+}
+.page-top .top-left .qr img{
+	width: 88px;
+	height: 88px;
+	display: block;
+	margin: 0 auto;	
+} 
+.page-top .top-left a.knowmore:hover .qr{
+	display: block;
+}
+
+
+.page-top .top-right{
+	float:right;
+	width: 400px;
+}
+.page-top .top-right .login{
+	color:#a2a2a2;
+	line-height: 38px;
+	float: right;
+}
+.top-right span{
+	color: #3f3f3f;
+	padding: 0 3px;
+}
+
+.page-top .top-right .mine{
+	color: #a2a2a2;
+	width: 118px;	
+	line-height: 38px;
+	float: right;
+}
+{/*顶部样式*/}
+
+
+
+
+/*导航样式*/
+.page-nav{
+	height: 110px;
+	/*background-color: gainsboro;*/	
+
+}
+.page-nav .nav span{
+	color: rgb(51,51,51);	
+	
+	margin-left: 11px;	
+}
+.page-nav .logo{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-right: 308px;	
+}
+.page-nav .logo:hover{
+	background-image: url(../img/区块链log2.png);
+}
+.page-nav .nav .nav-item{
+	margin-left: 20px;
+	float: left;	
+	padding-top: 45px;
+}
+.page-nav .nav .nav-item .tit{
+	font-size: 17px;
+	color: #666;
+}
+.page-nav .nav .nav-item .tit:hover{
+	color: rgb(239,105,0);
+}	
+	
+/*导航样式*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

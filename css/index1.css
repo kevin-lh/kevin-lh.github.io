@@ -1,0 +1,76 @@
+/*个人信息样式*/
+	.page-nav .container{
+		background-color: #FFFFFF;
+	}
+	.page-nav .nav .nav-item .tit1{
+		font-size: 17px;
+		color: rgb(239,105,0);
+	}
+	.page1 .box{
+		border: none;
+		width:1517px;
+		margin: 0 auto;
+		margin-top:0px;
+		min-height: 800px;
+		background: #f0f4f5;
+		padding-top: 25px;
+		
+	}	
+	.page1 .box .userfrom{
+		width:750px;
+		height: 800px;
+		background-color: #fff;
+		border-radius: 6px;
+		padding-bottom: 50px;
+		margin: 0 auto;		
+	}
+	.page1 .box  .title{
+		height:48px;
+		border: 1px solid #ededed;
+		background-color: #f5f5f5;
+		line-height: 48px;
+	}	
+	.page1 .box .titlebox{
+		width: 96%;
+		margin: 0 auto;
+	}
+	.page1 .box .userinfobox{
+		border: none;
+		text-align: center;
+		height: 500px;
+	}
+	.page1 .box .userinfo{
+		margin-top: 80px;		
+	}
+	.page1 .box .userinfo li{
+		height:50px;
+		margin-top: 25px;		
+	}
+	.page1 .box .userinfo label{
+		display: inline-block;
+		width: 70px;
+		text-align: center;		
+	}	
+	.page1 .box .userinfo  .usertext{
+		width: 258px;
+		height: 38px;
+		border: 1px solid #ededed;
+		text-indent: 0.5em;
+		display: inline-block;
+		border-radius: 4px;		
+	}
+	.page1 .box .userfrom button{
+		width: 76px;
+		height: 32px;
+		background-color: #ff690f;
+		border: none;
+		border-radius:2px ;
+		font-size: 14px;
+		color: #FFFFFF;	
+		margin-top: 50px;
+		margin-right: 50px;
+	}
+	.page1 .box .userfrom button:hover{
+		color: #000000;
+	}
+	
