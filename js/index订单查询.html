@@ -12,7 +12,7 @@
 		<style>
 			.page-nav .nav .nav-item .tit1{
 				font-size: 17px;
-				color: #666;
+				color: #666666;
 			}
 			.page-nav .nav .nav-item .tit6{
 				font-size: 17px;
@@ -24,6 +24,14 @@
 				margin: 16px auto 8px;
 				border-radius: 2px;
 				border: 1px solid rgba(151,151,151,0.5);	
+			}
+			.page1 .box .searchbox2 .input .enter{
+				width: 410px;
+				height:114px;
+				border: none;
+				resize: none;
+				overflow: auto;
+				outline: none;			
 			}
 			.page1 .box .searchbox2 button{
 				margin-left: 90px;
@@ -138,7 +146,8 @@
 					</div>
 			     
 					<div class="searchbox2">
-						<div class="input">	
+						<div class="input" >
+							<textarea type="text" class="enter" placeholder="请输入一个或多个运单号" style="font-size:12px" οnfοcus="this.placeholder=''"onblur="this.placeholder='请输入一个或多个运单号'"></textarea>
 				
 						</div>
 						<button class="track">查询</button>
@@ -151,6 +160,51 @@
 		</div>	
 		<!--订单查询主页-->
 		
-		
+		<!--底部-->
+		<div class="pagefoot">
+			<div class="container">
+				<ul class="nav">
+					
+					<div class="lt">						
+						<div class=""></div>
+						<dl>
+							<dt>关于我们 </dt>
+							<dd><a>团队简介</a></dd>
+							<dd><a>项目简介 </a></dd>
+							<dd><a>联系我们 </a></dd>
+						</dl>
+						<dl>
+							<dt>客户服务</dt>
+							<dd><a href="index个人信息.html">个人信息</a></dd>
+							<dd><a href="index订单查询.html"快件查询</a></dd>
+							<dd><a>网点查询</a></dd>
+						</dl>
+						<dl>
+							<dt>帮助中心</dt>
+							<dd><a>如何使用</a></dd>
+							<dd><a >用户反馈 </a></dd>
+							<dd><a>网站导航</a></dd>
+						</dl>
+						<dl>
+							<dt>相关链接</dt>
+							<dd><a href="https://www.taobao.com/" target="_blank">淘宝商城</a></dd>
+							<dd><a href="https://www.jd.com/"target="_blank">京东商城</a></dd>
+							<dd><a href="http://www.lawson.com.cn/"target="_blank">罗森便利店</a></dd>
+						</dl>
+					</div>
+					<div class="gt">
+						<img src="../img/区块链logo1.png" onmouseover="this.src='../img/区块链log2.png'" onmouseout="this.src='../img/区块链logo1.png'"/>
+					</div>
+					
+				</ul>
+			</div>
+			<div class="bot">
+				<div class="container">
+					<p class="last">Copyright&copy;2020 Kevin Li Company name All rights reserved</p>
+				</div>
+			</div>
+			
+		</div>
+		<!--底部-->
 	</body>
 </html>

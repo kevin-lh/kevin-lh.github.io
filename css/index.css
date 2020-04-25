@@ -15,6 +15,9 @@
 
 
 /*主页样式*/
+.mainbox{
+	height:610px;
+}
 .box{
 	position: relative;
 	border: 1px solid red;
@@ -84,10 +87,111 @@
 	display: inline-block;	
 }
 
-
-
-
-
-
-
 /*主页样式*/
+
+/*底部样式*/
+.pagefoot{
+	overflow: hidden;
+	height:300px;
+	/*margin-top: 500px;*/
+	background-color: rgba(64, 63, 63);
+	font-size: 16px;
+	color: #FFFFFF;
+	/*border-top: 3px solid  rgba(255, 105, 15);*/
+	box-shadow: 6px 3px 28px rgba(255, 105, 15);
+}
+hr{
+	line-height: 40px;
+}
+.pagefoot .nav {
+	padding-top: 40px;
+	border-bottom: 1px solid rgba(102, 102, 102);
+}
+.pagefoot .nav .gt{
+	width: 240px;
+	height: 150px;
+	padding-top: 50px;
+	float: right;
+	text-align: center;	
+}
+.pagefoot .nav .gt img:hover{
+	background-image: url(../img/区块链log2.png);
+}
+.pagefoot .nav .lt{
+	width: 964px;
+	padding-top: 40px;
+	float: left;
+		
+}
+.pagefoot .nav .lt dl{
+	width:238px;
+	height: 150px;
+	float: left;
+	color: #757575;
+	text-align: center;
+	border-right: 1px solid #e0e0e0;
+	
+}
+.pagefoot .nav .lt dt{
+	color: #F0F4F5;
+	font-size: 20px;
+	line-height: 40px;
+}
+.pagefoot .nav .lt dd{
+	line-height: 30px;
+	
+}
+.pagefoot .nav .lt dd:hover{
+	color: #ff6700;
+}
+.pagefoot .nav gt{
+	width:240px;
+	float: right;
+	text-align: center;
+}
+.pagefoot .bot  {
+      width: 1200px;
+      height: 100px;
+      border-top: 1px solid rgba(102, 102, 102);
+      margin: 200px auto;
+      text-align: center;
+      color: rgba(153, 153, 153);
+      font-size: 14px;
+}
+.pagefoot .bot .last{
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部样式*/
+
+
+
+
+
