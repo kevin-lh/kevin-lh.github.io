@@ -1,0 +1,154 @@
+body{
+    background-color: #e5e5e5;
+    width: 100%;
+    overflow-x: hidden; 
+    padding: 1rem 10%;
+    padding-bottom: 0;
+    font-size: .9em;
+}
+/* 2020.6.26 */
+body .iconfont{
+    margin-right: .3em;
+    font-size: 1.2em;
+    display: inline-block;
+    font: normal normal normal  FontAwesome;
+}
+i{
+    margin-left: 1em;
+}
+h2{font-size: 1.2rem;}
+.container .side hr{
+    margin-bottom: .2em;
+    border: none;
+    border-bottom: 1px solid #cfcfcf;
+    height: 3px;
+    width: 300px;
+}
+.container .side ul{
+    list-style: none;
+    line-height: 39px;
+    
+}
+label,span{
+    font-size: 1.0rem;
+    color:rgb(red, green, blue)
+}
+/* 2020.6.26 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+    /* font-weight: 100; */
+    color: #000;
+    line-height: 1.35;
+}
+.container{
+    /* border: 1px solid blue; */
+    height: 1300px;
+    margin: 0 auto;
+    width: 1200px;
+    position: absolute;
+    padding: 0;  
+}
+.container .side{
+    width: 20rem;
+    background-color: #fff;
+    height: 1100px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #bbbbbb;
+    float: left;
+}
+.container .side .me{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+.container .side .base-info{
+    margin-bottom: 1rem;
+}
+
+.container .side .base-info ul li label{
+    display: inline-block;
+    width: 38%;
+}
+.container .side .base-info ul li span{
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+.container .side .contact-info ul li label{
+    display: inline-block;
+    width: 28%;
+}
+.container .side .contact-info ul li span{
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    color: rgba(61, 188, 156);
+}
+.container .side .main-lesson ul li::before{
+  list-style: none;
+  margin-left: 0px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  background: rgba(61, 188, 156);
+  vertical-align: middle;
+  margin-right: 21px;
+}
+
+/* ................................. */
+.container .right{
+    width: 50rem;
+    background-color: #fff;
+    height: 1100px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #bbbbbb;
+    float:right;
+}
+.container .right hr{
+    margin-bottom: .2em;
+    border: none;
+    border-bottom: 1px solid #cfcfcf;
+    height: 3px;
+    width: 745px;
+}
+.container .right ul{
+    line-height: 40px;
+}
+.container .right span{
+    font-weight: bolder;
+}
+.container .right label{
+    font-weight: bolder;
+}
+.container .right  ul li label{
+    display: inline-block;
+    width: 38%;
+    margin-left: 10px;
+}
+.container .right ul li span{
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+.container .right .experience .info-content {
+    line-height: 40px;
+}
+.container .right .skill ul{
+    margin-left: 35px;
+    line-height: 45px;
+}
+.container .right .honor ul{
+    margin-left: 35px;
+    line-height: 45px;
+}
+footer{
+    width: 100%;
+    margin-top: 80rem;
+    height:1rem;
+    margin-left: 410px;
+}
+
+
+

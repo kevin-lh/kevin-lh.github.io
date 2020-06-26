@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "310476",
+      "name": "技能",
+      "font_class": "jineng",
+      "unicode": "f0080",
+      "unicode_decimal": 983168
+    },
+    {
+      "icon_id": "754170",
+      "name": "头像",
+      "font_class": "icon",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5909777",
+      "name": "学士帽",
+      "font_class": "xueshimao",
+      "unicode": "e5ab",
+      "unicode_decimal": 58795
+    },
+    {
+      "icon_id": "6655551",
+      "name": "荣誉",
+      "font_class": "rongyu",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "10526174",
+      "name": "电 话",
+      "font_class": "dianhua",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "12104407",
+      "name": "工作",
+      "font_class": "gongzuo",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "13739720",
+      "name": "课本",
+      "font_class": "keben",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    }
+  ]
+}
