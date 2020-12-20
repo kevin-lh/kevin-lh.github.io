@@ -1,0 +1,17 @@
+{
+  "name": "registdemo",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "devDependencies": {
+    "electron": "^10.1.5"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
