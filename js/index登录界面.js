@@ -2,7 +2,7 @@ const myform=document.querySelector('#myform');
 const nameinput=document.querySelector('.Name');
 const passwordinput=document.querySelector('.Password');
 const msg=document.querySelector('.msg');
-var name='lh';
+var name='root';
 var password=123456;
 myform.addEventListener('submit',onSubmit);
 
